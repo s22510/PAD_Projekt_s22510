@@ -54,10 +54,14 @@ Ekstremalne wartości temperatury poza granicami percentyli (0.1% - 99.9%) są u
 ## Analiza danych
 
 ### Wizualizacje
-Wygenerowano wykresy w celu analizy zależności pomiędzy zmiennymi.
+Wewnątrz pliku znajdują się wykresy do analizy zależności pomiędzy zmiennymi:
+
 - **Temperatura**: Rozkład zbliżony do normalnego (zakres: -15°C do 30°C).
 - **Wilgotność**: Skupienie w zakresie 75%-100%.
 - **Prędkość wiatru**: Większość wartości w zakresie 0-20 km/h, z nielicznymi ekstremami >30 km/h.
+- **Wykres korelacji**: Przedstawia zależności pomiędzy temperaturą, wilgotnością powietrza oraz prędkością wiatru. W szczególności pozwalają one wyraźnie dostrzec związek pomiędzy temperaturą a wilgotnością powietrza, co czyni wilgotność cenną zmienną wejściową do modelu.
+- **Wykres dzienny**: Przedstawia zmiany temperatury na przestrzeni godzin w ciągu jednego dnia (wybrano dzień 2024-06-05). Pozwala to zauważyć codzienne wzorce temperaturowe.
+- **Wykres miesięczny**: Pokazuje, jak temperatura zmienia się w zależności od pory roku (dni i miesięcy). Dzięki temu możemy stwierdzić, że model może uwzględniać zmienność wynikającą z dnia oraz godziny dla lepszych rezultatów.
 
 ### Wnioski z analizy
 - Wilgotność powietrza może być używana do nauki modelu.
